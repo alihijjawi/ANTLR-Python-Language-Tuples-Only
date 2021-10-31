@@ -1,1 +1,8 @@
-x=(1,1)
+L1 = ['hello', 'everybody', 'from', 'aub']	print(L1)
+L2 = ['hello', 55, 'from', L1]			print(L2)
+L2[2] = 'to'					print(L2)
+L3 = ['333', 33, 3]				print(L3)
+L4 = ['444', 44, 4]				print(L4)
+
+L3 = L1 + L2					print(L3)
+L5 = L1 + L2 + L3 + L4				print(L5)
